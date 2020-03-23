@@ -32,9 +32,9 @@ typedef struct
 
 typedef struct
 {
-	int NumWindow, //=0
-		NumButton,//=0
-		k;//=1
+	int NumWindow, 
+		NumButton,
+		DrawIndex;
 	int* WinDraws;
 } CurrentWinBut;
 
