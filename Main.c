@@ -17,7 +17,7 @@ int WINAPI WinMain(_In_ HINSTANCE hInstance, _In_opt_ HINSTANCE hPrevInstance, _
 {
 	//Window = SystemOpen();
 	Window = Reader();
-	CWB.k = 1;
+	CWB.DrawIndex = 1;
 	CWB.NumButton = 0;
 	CWB.NumWindow = 0;
 	CWB.WinDraws = malloc(10 * sizeof(int));
